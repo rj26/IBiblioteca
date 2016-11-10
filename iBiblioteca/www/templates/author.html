@@ -1,0 +1,27 @@
+<ion-content>
+	<div class="bar bar-header bar-balanced">
+ 	 	<a ui-sref="main" class="button button-icon icon icon-left ion-chevron-left">Volver</a>
+  		<div class="h1 title">Información</div>
+	</div>
+	<br><br>
+	<div class="card">
+		  <div class="item item-divider">
+		  	<strong>Autor</strong>
+		  </div>
+		   <div style="text-align: center;">
+		   		<img class="image" src="http://www.cavsi.com/preguntasrespuestas/images/que-es-usuario.jpg" width="200" height="170">
+		   </div>
+		  <div class="item item-divider icon-left" style="text-align: center;">
+		   	<a ui-sref="curriculum" class="button ion-document-text"> Curriculum Vitae</a>
+		  </div>
+		   <div class="item item-divider icon-left" style="text-align: center;">
+		   	<a href="https://twitter.com/Raul_Terrazas26" class="button ion-social-twitter-outline">{{author.twitter}}</a>
+		  </div>
+		  <div class="item item-divider icon-left" style="text-align: center;" >
+		   	<a href="mailto:luis.raul.16@hotmail.com" class="button ion-email">{{author.email}}</a>
+		  </div>
+		  <div class="item item-divider icon-left" style="text-align: center;">
+		   	<a href="tel: +52 -614-162-09-59" class="button ion-ios-telephone-outline">{{author.phone}}</a>
+		  </div>
+	</div>
+</ion-content>
